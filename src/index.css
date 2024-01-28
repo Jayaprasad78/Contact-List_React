@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:teal;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/****************************************** Navbar.css *********************************************/
+
+.navbar{
+   font-size:50px;
+   font-weight: 600;
+   display: flex;
+   justify-content: center;
+   background-color: black;
+}
+
+.navbar a:hover{
+  cursor: pointer;
+}
+
+/******************************************* Home.css *********************************************/
+
+.home_table_head{
+ background-color: lightgrey;
+}
+
+table{
+  border-spacing: 5px;
+}
+.home_table{
+  color: black;
+  height: fit-content;
+  width: fit-content;
+  margin-left: 25%;
+}
+
+.deletebtn{
+  font-size: 15px;
+  background-color:red ;
+  color:white;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+
+
+/******************************************** AddContact ************************************/
+
+.addContact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.submitBtn{
+  margin-left: 28%;
+}
+
+.toast-message {
+  background: darkblue;
+  color: #fff;
+  font-size: 5px;
+  width: 0.5vw;
+  height: 0.5vw;
+  padding: 30px 20px;
+}
+
+/******************************************** AddContact ************************************/
+.updateContact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
